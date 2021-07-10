@@ -1,0 +1,72 @@
+@media only screen and (max-width:770px){
+    #header{
+        background-image: none;
+    }
+    .container{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .logo{
+        width: 70px;
+        margin-top: 25px;
+    }
+    .header-text{
+        margin-top: 100px;
+    }
+    .header-text h1{
+        font-size: 25px;
+    }
+    #menuBtn{
+        right: 50px;
+        width: 40px;
+    }
+    .all-btn{
+        padding: 10px 16px ;
+    }
+    .social-icon img{
+        width: 16px;
+        margin: 15px auto;
+    }
+
+    /* about */
+    .about-left , .about-right{
+        flex-basis: 100%;
+    }
+    .about-right .about-text{
+        margin:50px 50px 0 ;
+        display: inline-block;
+       
+    }
+    .about-right .about-text h2{
+        font-size: 18px;
+    }
+    /* feature */
+    .feature-col{
+        flex-basis: 100%;
+        margin-bottom:20px;
+        
+    }
+    /* course */
+    .course-left{
+        flex-basis: 100%;
+    }
+    .course-right{
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+    /* contact */
+    .contact-col-left , .contact-col-right{
+        flex-basis: 100%;
+    }
+    .contact-col-righ{
+        margin-top: 50px;
+    }
+    /* footer */
+    .footer-left , .footer-right{
+        flex-basis: 100%;
+    }
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+}
